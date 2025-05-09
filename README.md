@@ -12,7 +12,7 @@ Key conclusions that this project gained were:
 
 As of 9th May 2025.
 
-# HPC Setup Guide (Vanda Cluster)
+# HPC Setup Guide (Vanda Cluster – NUS students)
 1. Register for a HPC account (if you have not done so) at [here](https://nusit.nus.edu.sg/hpc/get-an-hpc-account/)
 2. Follow instructions to ssh into the hpc ip requires [NUS VPN](https://nusit.nus.edu.sg/services/wifi_internet/nvpn/) (search from ntouch applications)
 4. Follow the [start up](https://nusit.nus.edu.sg/hpc/introductory-guide-for-new-hpc-users/) guide on HPC – as of time of writing this, the start up guide is still outdated (atlas clusters have been decomissioned, email relevant parties in NUS computing/ntouch for new vanda cluster guide if not available/pdf guide is attached in this repo)
