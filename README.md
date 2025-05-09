@@ -1,7 +1,8 @@
 # FYP
 This repository contains scripts and documentations for NUS students to continue the research on using ALIGNN to predict materials properties.
 This project laid the foundations of ALIGNN, learning how to use ALIGNN to train models, evaluate the models and use these models to help predict properties of materials.
-Key conclusions that this project has gained were:
+
+Key conclusions that this project gained were:
 1. Formation Energy and Bandgap pre trained models are about 95% accurate
 2. Structure Optimization:
    - Only the size of the structure significantly affected the time required for optimization
