@@ -32,7 +32,9 @@ for filename in os.listdir(folder):
     atoms = Atoms.from_poscar(files)
     ff = ForceField(
             jarvis_atoms=atoms,
-            model_path='/home/svu/e0726313/miniconda3/envs/fyp/lib/python3.10/site-packages/alignn/ff/v12.2.2024_dft_3d_307k'
+            model_path = model_path
+            #model_path='/home/svu/e0726313/miniconda3/envs/fyp/lib/python3.10/site-packages/alignn/ff/v12.2.2024_dft_3d_307k'
+            # if model_path = model_path doesnt work then put the v12.2.2024_dft_3d_307k file inside this location^
         )
     
     #opt, en, fs = ff.optimize_atoms(steps = 5000, trajectory = f'/scratch/e0726313/outputs/{filename}.traj', logfile = f'/scratch/e0726313/outputs/{filename}.log')
