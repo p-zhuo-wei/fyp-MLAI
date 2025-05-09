@@ -1,0 +1,15 @@
+#!/bin/bash
+#SBATCH --nodes=1
+#SBATCH --ntasks-per-node=16
+#SBATCH --time=72:00:00
+#SBATCH --partition=singlegpu,batch
+#SBATCH --mem=94G
+#SBATCH --error=job.err
+#SBATCH --output=job.out
+#SBATCH --gres=gpu:1
+
+cd /home/knc6/Software/version/alignn/alignn/tests/ALL_DATASETS/JV15_55k/jv_bulk_modulus_kv_alignn
+. ~/.bashrc 
+conda activate version 
+python train.py
+
