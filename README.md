@@ -52,8 +52,18 @@ As of 9th May 2025.
    conda install dglteam/label/cu121::dgl
    ```
 # Breakdown of this Github Repository
-| Files | Comments | Usage |
+
+## Data Folder
+- Contains all data files that was used in this project
+| Files/Folders | Comments | Usage |
 |:-|:-|:-
-| data/jv_XXXX | pre-trained models by alignn | can be used to further tune and improve model or plot parity plots |
-| data/logfiles/XXX.log | records of the structure optimization process | 
+| jv_XXXX | Pre-trained models by alignn | Used to further tune and improve model or plot parity plots |
+| logfiles/XXX.log | Records of the structure optimization process | Used to extract Energy and fmax at specific number of steps, to observe convergence of fmax/energy|  |
+| logfiles/XXX.traj | Records of the structure at different steps in the optimization process | Used to extract the coordinates of structure at different steps |
+| pugh_model | Self-Trained pugh model | Used to further tune and improve model or plot parity plots |
+| structure_folder | Structures of all HEA produced (unoptimized) | To study the optimization process and pugh ratio prediction |
+| traj_structure | Structures of optimized HEA at different number of optimization steps (0-500, intervals of 20), extracted from logfiles/XXX.traj | Used to predict pugh ratios at different steps to determine effect of the different structures on pugh ratio |
+| V12.2.2024_dft_3d_307k | Configuration and model path for optimization process | To be injected into alignn/ff if optimization does not work, and specify the path accordingly |
+| XXX.csv | Predictions done by bulk and shear modulus models/pugh ratio model and timetaken for optimization at different number of steps | Used to evaluate and plot graphs | 
+
 
