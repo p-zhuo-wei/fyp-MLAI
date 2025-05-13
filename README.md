@@ -1,6 +1,10 @@
 # FYP
 This repository contains scripts and documentations for NUS students to continue the research on using ALIGNN to predict materials properties.
 This project laid the foundations of ALIGNN, learning how to use ALIGNN to train models, evaluate the models and use these models to help predict properties of materials.
+The main structure studied in this project is a High Entropy Alloy consisting of Mo, V, Ti, Nb, Zr
+The labelling conventions are as follows:
+1. 1010101014-3: 10Mo, 10V, 10Ti, 10Nb, 14Zr, with a UID of 3, which represents the different arrangements of atoms this structure
+2. 12328-3: 1Mo, 2V, 3Ti, 2Nb, 8Zr, UID of 1
 
 Key conclusions that this project gained were:
 1. Formation Energy and Bandgap pre trained models are about 95% accurate
@@ -47,5 +51,9 @@ As of 9th May 2025.
    ```
    conda install dglteam/label/cu121::dgl
    ```
-
+# Breakdown of this Github Repository
+| Files | Comments | Usage |
+|:-|:-|:-
+| data/jv_XXXX | pre-trained models by alignn | can be used to further tune and improve model or plot parity plots |
+| data/logfiles/XXX.log | records of the structure optimization process | 
 
