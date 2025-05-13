@@ -52,6 +52,24 @@ As of 9th May 2025.
    conda install dglteam/label/cu121::dgl
    ```
 # Breakdown of this Github Repository
+1. HPC Scripts - Portable Batch System (PBS) scripts that were used to submit jobs in HPC (copy all into your own HPC vanda cluster if needed, but adjustments must be made eg. Project ID, directory etc.)
+2. data - data files which were used in this project
+3. Vanda Cluster User guide (27/01/2025) - Read user guide to help with setting up and running the HPC properly
+4. Plots.ipynb - Python notebook of all the plots for this project
+5. scripts.ipynb - Python notebook of all the scripts used in this project
+
+## HPC Scripts
+- Contains all PBS scripts used in this project
+- All python scripts in this folder is required for the PBS scripts to run properly
+
+| Files | Comments |
+|:-|:-|:-|
+| optimize.pbs | PBS script for optimizing structures |
+| optimize_direct.py | Python script required for optimize.pbs|
+| predictions.pbs | PBS script for predicting material properties |
+| prediction.py | Python script required for predictions.pbs, predicts the shear, bulk modulus and calculates the Pugh Ratio from shear/bulk |
+| train.pbs | PBS script to train model |
+| train_alignn.py | Python script required for train.pbs | 
 
 ## Data Folder
 - Contains all data files that was used in this project
