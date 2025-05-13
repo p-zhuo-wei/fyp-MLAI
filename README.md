@@ -97,3 +97,4 @@ As of 9th May 2025.
    - Confusion Matrix - how accurate the model is in classifying ductile/brittle materials
 
 Written by: Phua Zhuo Wei :)
+zwphua@u.nus.edu
