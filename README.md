@@ -17,7 +17,7 @@ As of 9th May 2025.
 2. Follow instructions to ssh into the hpc ip requires [NUS VPN](https://nusit.nus.edu.sg/services/wifi_internet/nvpn/) (search from ntouch applications)
 4. Follow the [start up](https://nusit.nus.edu.sg/hpc/introductory-guide-for-new-hpc-users/) guide on HPC – as of time of writing this, the start up guide is still outdated (atlas clusters have been decomissioned, email relevant parties in NUS computing/ntouch for new vanda cluster guide if not available/pdf guide is attached in this repo)
 
-# SSH into vanda cluster (Read the vanda cluster guide for more info)
+# SSH into vanda cluster (Read the [vanda cluster guide](Vanda_Cluster_User_Guide_27Jan25.pdf) for more info)
 1. ssh e0123456@vanda.nus.edu.sg
 2. Enter password (if its your first time, you might have to create a new password)
 
