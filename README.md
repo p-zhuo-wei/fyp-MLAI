@@ -85,4 +85,15 @@ As of 9th May 2025.
 | V12.2.2024_dft_3d_307k | Configuration and model path for optimization process | To be injected into alignn/ff if optimization does not work, and specify the path accordingly |
 | XXX.csv | Predictions done by bulk and shear modulus models/pugh ratio model and time taken (seconds) for optimization at different number of steps | Used to evaluate and plot graphs | 
 
+# Outline of steps to use this Repository
+1. The main scripts to follow are [scripts.ipynb](scripts.ipynb) and [hpc_scripts](hpc_scripts)
+2. scripts.ipynb provides scripts used to create structures of elements of interest
+3. Use the HPC script - optimize.pbs to optimize these structures
+4. After obtaining these structures:
+   - use the .traj and .log files to plot graphs to observe how the energy/fmax changes with the number of steps and extract the structures at different steps
+   - use predictions.pbs to predict the shear and bulk modulus and the script will calculate the pugh ratio
+5. Evaluate the property prediction:
+   - Parity plots - predicted vs theoretical pugh ratios
+   - Confusion Matrix - how accurate the model is in classifying ductile/brittle materials
 
+Written by: Phua Zhuo Wei :)
