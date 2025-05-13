@@ -83,6 +83,6 @@ As of 9th May 2025.
 | structure_folder | Structures of all HEA produced (unoptimized) | To study the optimization process and pugh ratio prediction |
 | traj_structure | Structures of optimized HEA at 0-500 optimization steps (intervals of 20), from logfiles/XXX.traj | Predict pugh ratios at different steps to determine effect of the different structures on pugh ratio |
 | V12.2.2024_dft_3d_307k | Configuration and model path for optimization process | To be injected into alignn/ff if optimization does not work, and specify the path accordingly |
-| XXX.csv | Predictions done by bulk and shear modulus models/pugh ratio model and timetaken for optimization at different number of steps | Used to evaluate and plot graphs | 
+| XXX.csv | Predictions done by bulk and shear modulus models/pugh ratio model and time taken (seconds) for optimization at different number of steps | Used to evaluate and plot graphs | 
 
 
