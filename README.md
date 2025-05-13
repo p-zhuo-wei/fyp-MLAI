@@ -22,12 +22,25 @@ As of 9th May 2025.
 2. Enter password (if its your first time, you might have to create a new password)
 
 # Setting up ALIGNN on Vanda Cluster
-1. Opening in container `singularity exec /app1/common/singularity-img/hopper/pytorch/pytorch_2.1.0_cuda_12.1_ngc_23.07.sif`
-2. Creating conda environment in container (probably not neccesary and is not recommended but this worked for me) `bash conda create -n fyp python=3.10`
+1. Opening in container 
+   ```
+   singularity exec /app1/common/singularity-img/hopper/pytorch/pytorch_2.1.0_cuda_12.1_ngc_23.07.sif
+   ```
+2. Creating conda environment in container (probably not neccesary and is not recommended but this worked for me)
+   ```
+   bash conda create -n fyp python=3.10
+   ```
 3. Install pytorch and dgl related libraries
-  - `bash conda install pytorch==2.1.0 torchvision==0.16.0 torchaudio==2.1.0 dgl=2.1.0 pytorch-cuda=12.1 -c pytorch -c nvidia -c dglteam`
-  - `bash conda install dglteam/label/cu121::dgl`
-5. Install ALIGNN `conda install conda-forge::alignn`
-6. Install CUDA enabled DGL `conda install dglteam/label/cu121::dgl`
+   ```
+   conda install pytorch==2.1.0 torchvision==0.16.0 torchaudio==2.1.0 dgl=2.1.0 pytorch-cuda=12.1 -c pytorch -c nvidia -c dglteam
+   bash conda install dglteam/label/cu121::dgl
+   ```
+4. Install ALIGNN
+   ```conda install conda-forge::alignn
+   ```
+5. Install CUDA enabled DGL
+   ```
+   conda install dglteam/label/cu121::dgl
+   ```
 
 
