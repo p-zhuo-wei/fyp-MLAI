@@ -19,7 +19,7 @@ As of 9th May 2025.
 
 # Connect into vanda cluster (Read the [vanda cluster guide](Vanda_Cluster_User_Guide_27Jan25.pdf) for more info)
 1. Connect to vanda cluster
-   ```
+   ```python
    # replace eXXXXXXX with your own NUS id
    ssh e0123456@vanda.nus.edu.sg
    ```
