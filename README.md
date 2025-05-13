@@ -65,7 +65,7 @@ As of 9th May 2025.
 | Files | Comments |
 |:-|:-|:-
 | optimize.pbs | PBS script for optimizing structures |
-| optimize_direct.py | Python script required for optimize.pbs|
+| optimize_direct.py | Python script required for optimize.pbs |
 | predictions.pbs | PBS script for predicting material properties |
 | prediction.py | Python script required for predictions.pbs, predicts the shear, bulk modulus and calculates the Pugh Ratio from shear/bulk |
 | train.pbs | PBS script to train model |
