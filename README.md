@@ -36,7 +36,8 @@ As of 9th May 2025.
    bash conda install dglteam/label/cu121::dgl
    ```
 4. Install ALIGNN
-   ```conda install conda-forge::alignn
+   ```
+   conda install conda-forge::alignn
    ```
 5. Install CUDA enabled DGL
    ```
