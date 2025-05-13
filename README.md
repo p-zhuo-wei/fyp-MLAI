@@ -63,7 +63,7 @@ As of 9th May 2025.
 - All python scripts in this folder is required for the PBS scripts to run properly
 
 | Files | Comments |
-|:-|:-|:-
+|:-|:-
 | optimize.pbs | PBS script for optimizing structures |
 | optimize_direct.py | Python script required for optimize.pbs |
 | predictions.pbs | PBS script for predicting material properties |
